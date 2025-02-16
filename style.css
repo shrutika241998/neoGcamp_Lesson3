@@ -27,7 +27,7 @@ hr{
 }
 
 .container-center{
-   max-width: 600px;
+   /* max-width: 600px; */
    margin:auto;
 }
 
@@ -91,16 +91,18 @@ hr{
    text-align: center;
    margin-top: 0px;
    padding-top: 0.5rem;
+   display: block;
 }
 
  .header_inside .heading-inverted{
     color:#4b5563;
 }
 
-.section_ow{
+/* .section_ow{
     background-color: white;
     padding: 1rem;
-}
+    display: block;
+} */
 
 .section_white{
 padding-bottom: 2rem;
@@ -111,7 +113,9 @@ padding-left: 1rem;
     text-align: center;
     font-family: 'Nunito', sans-serif;
 }
-
+h2{
+    background-color:#dde5e8;
+}
 .footer_links{
     text-align: center;
     text-decoration: none;
